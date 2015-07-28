@@ -27,7 +27,7 @@ public class MirrorService extends Service {
 
         Intent statusUpdate = new Intent(RootStatusReceiver.ACTION);
         try {
-            // fix permissions
+            SMLog.d("MirrorService onCreate");
             Process proc = 
             		Runtime.getRuntime().exec(new String[]{
             				"/system/bin/su",

@@ -14,7 +14,7 @@
 	
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/mirror"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -28,9 +28,9 @@
         </activity>
 
         <service
-            android:name="GrabbingService"
+            android:name="com.bjlz.service.MirrorService"
             android:icon="@drawable/ic_launcher"
-            android:label="GrabbingService" >
+            android:label="MirrorService" >
         </service>
     </application>
 
